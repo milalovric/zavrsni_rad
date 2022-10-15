@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="cart.css">
+   
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--My CSS File-->
+    <link rel="stylesheet" href="form.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">    
+    
+        <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" 
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" 
+        crossorigin="anonymous"></script>   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+        crossorigin="anonymous"></script>    
+<!-- FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous"  />
+</head>
+    <title>Cart</title>
+</head>
+
+<body class="bg-img">
+
+     <!--NavBar-->
+     <nav id="mainNavbar" class="navbar navbar-expand-lg  navbar-dark">
+        <a class="navbar-brand ml-2 mt-3" href="#"><img src="foodies.png" width="220px" height="50px"></a>
+        <div class="i"><i  class="fas fa-shopping-cart"></i><span  id="item" style="padding-left: 4px;">0</span></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav mr-auto"></div>
+            <ul class="navbar-nav my-2 my-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link mr-4" href="../home page/homepage.html">Početna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  mr-4" href="../Aboutus/aboutUs.html">O Nama</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  mr-4" href="../Menu/Menu.html">Jelovnik</a>
+                </li>
+                <li class="nav-item  active">
+                    <a class="nav-link  mr-4" href="#checkout"><i style="color: whitesmoke"
+                            class="fas fa-shopping-cart"></i> <span id="items">0</span><span
+                            class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    
+
+<div class="container mt-3" style="opacity: .9;  background-color: rgba(0, 0, 0, 0.664);
+background-image: linear-gradient(rgb(40, 40, 40), black);">
+<table class="table" style="color: goldenrod;">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Artikl</th>
+        <th scope="col">Količina</th>
+        <th scope="col">Cijena</th>
+        <th scope="col">Ukupno</th>
+      </tr>
+    </thead>
+    <tbody class="ProductSpace">
+    </tbody>
+  </table>
+</div>
+
+<div class="mt-2 cart_item_total cart_item_info total">  
+</div>
+
+
+    <script src="../order form/form.js"></script>
+</body>
+
+</html>

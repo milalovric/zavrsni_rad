@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Order Form</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--My CSS File-->
+    <link rel="stylesheet" href="form.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">    
+    
+        <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" 
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" 
+        crossorigin="anonymous"></script>   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+        crossorigin="anonymous"></script>    
+
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous"  />
+</head>
+
+<body>
+    
+    <!--NavBar-->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg  navbar-dark">
+        <a class="navbar-brand ml-2 mr-0 mt-3" href="../home page/homepage.html"><img src="foodies.png" width="220px"
+                height="50px"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav mr-auto"></div>
+            <ul class="navbar-nav my-2 my-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link mr-4" href="../home page/homepage.html">Početna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  mr-4" href="../Aboutus/aboutUs.html">O Nama</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  mr-4" href="../Menu/Menu.html">Jelovnik</a>
+                </li>
+                <li class="nav-item  active">
+                    <a class="nav-link  mr-4 sticky-top" href="../Cart/Cart.html"><i style="color: whitesmoke"
+                            class="fas fa-shopping-cart"></i> <span id="items">0</span><span
+                            class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <p class="mt-2 mx-2 text-light float-right sticky-top"><a href="../Cart/Cart.html" class="i mx-0 px-2 py-1"><i class="fas fa-shopping-cart"></i><span id="item"
+        style="padding-left: 5px;">0</span></a></p>
+    <p id="message" class="sticky-top"></p>
+
+    <section class="py-5 my-5 container menu-card">
+        <h1 class="text-center pt-2"
+            style="font-family: Arial, Helvetica, sans-serif; color:goldenrod; font-size: 60px;">Naručite online</h1>
+
+        <section class="container menu">
+            <h1 class="mt-4  h1">ROLADA</h1>
+            <div class="display-items ">
+                <h3>Pileća rolada </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Teleća rolada </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Goveđa rolada </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+
+        <section class="container">
+            <h1 class="mt-4  h1">BURGERI</h1>
+            <div class="display-items ">
+                <h3>Pileći burger + prilog </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>BBQ burger + prilog </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Crispy burger + prilog </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Cool burger + prilog </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+            <div class="display-items ">
+                <h3>Italian burger + prilog </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+            <div class="display-items ">
+                <h3>Burrito burger + prilog </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+        </section>
+
+
+        <section class="container">
+            <h1 class="mt-4  h1">SENDVIĆI</h1>
+            <div class="display-items ">
+                <h3>Pileći sendvić + prilog</h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Sendvić s piletinom i sirom + prilog</h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Sendvić s povrćem + prilog</h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Sendvić šunka-sir + prilog</h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+            <div class="display-items ">
+                <h3>Sendvić s tunom + prilog</h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+            <div class="display-items ">
+                <h3>Sendvić s pršutom + prilog</h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+        
+        </section>
+
+
+        <section class="container">
+            <h1 class="mt-4  h1">DESERTI</h1>
+            <div class="display-items ">
+                <h3>Cheesecake (obični) </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Cheesecake (preljev) </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Čokoladna torta </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Milka torta </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Sladoled </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Palaćinka (nutela, keks) </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+        </section>
+        <section class="container">
+            <h1 class="mt-4  h1">PRILOZI</h1>
+            <div class="display-items ">
+                <h3>Majoneza </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+            <div class="display-items ">
+                <h3>Kečap </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+            <div class="display-items ">
+                <h3>Tartar </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+            <div class="display-items ">
+                <h3>Kukuruz </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+            <div class="display-items ">
+                <h3>Krastavci </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+            <div class="display-items ">
+                <h3>Zelena salata </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+        </section>
+
+        <section class="container">
+            <h1 class="mt-4  h1">PIĆA</h1>
+            <div class="display-items ">
+                <h3>Crna kava </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Bijela kava </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Cappuccino </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Čaj </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Coca-cola </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Fanta </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Ledeni čaj </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Mineralna voda </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+
+            <div class="display-items ">
+                <h3>Jana voda </h3>
+                <button class="item">dodaj u košaricu</button>
+            </div>
+        </section> -->
+
+        <div class="container mt-4 text-center">
+            <a href="../Cart/Cart.html" target="_self">
+                <button id="order" onmouseover="arrowOver()" onmouseout="arrowOut()">
+                    PROVJERI
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!--JS file-->
+    <script src="form.js"></script>
+</body>
+
+</html>

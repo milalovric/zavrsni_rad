@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--My CSS File-->
+    <link rel="stylesheet" type="text/css" href="project.css">
+
+    <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> 
+
+    <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" 
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" 
+        crossorigin="anonymous"></script>   
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+        crossorigin="anonymous"></script>    
+
+    <!--FontAwesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous"  />
+
+    <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sofia&display=swap" rel="stylesheet">
+
+    <title>Home Page</title>
+</head>
+
+<body>
+
+    <!--NavBar-->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg  navbar-dark">
+        <a class="navbar-brand ml-2 mt-3" href="#"><img id="pic1" src="./imgs/foodies.png" width="220px"
+                height="50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav mr-auto"></div>
+            <ul class="navbar-nav my-2 my-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link mr-4" href="#First">Početna<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  mr-4" href="../Aboutus/aboutUs.html">O Nama</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  mr-4" href="../Menu/Menu.html">Jelovnik</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  mr-4" href="../order form/form.html">Naručite Online</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <!--Content of Body-->
+
+    <section class="container-fluid cover" id="First">
+        <div class="content">
+            <h1 id="h1">Dobrodošli u Foodiess</h1>
+            <h2 id="h2">Hrana je ukusnija kada je jedete sa svojom obitelji</h2>
+            <button id="button" onclick=" window.open('../order form/form.html','_blank')">NARUČITE SADA</button>
+        </div>
+    </section>
+
+    <!--Intro-->
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-lg-6 col-sm-4">
+                <img id="A1" src="./imgs/cook.jpg" width="600px" height="500px">
+            </div>
+            <div class="  col-lg-6 mt-4 ml-0">
+                <h2 id="h3">Kuhamo sa srcem</h2><br>
+                <p class="text">Svaki začin je izmjeren i izmiješan do savršenstva; jela pažljivo pripremljena tako da niti jedan sastojak ne bude izostavljen u ravnoteži. Okus i ambijent konstruirani tako da nijedno zrno riže ili ploča ne izgledaju neprikladno.
+                <p>
+                <p class="text">Pozdravljamo vas da istražite naš okus svijeta, u kontinentalnim i kineskim užicima, a to je čak i prije nego što dođete do raznolikosti i izvrsnosti našeg roštilja. S toplinom usluge kakvu rijetko doživljavate, savršeno je mjesto za uživanje s obitelji, upijanje u opuštajućem dekoru i duboke želje da ga jednom ponovno posjetite, nikad dovoljno.</p>
+                <button id="btn3" onclick=" window.open('../Menu/Menu.html','_blank')">Jelovnik <i
+                        class="fas fa-receipt"></i></button>
+            </div>
+        </div>
+
+
+        <!--Gallery-->
+
+        <h1 id="foga">Galerija hrane</h1>
+        <section id="gal">
+            <img class="images" src="./imgs/burger.jpg" alt="image">
+            <img class="images" src="./imgs/broast.jpg" alt="image">
+            <img class="images" src="./imgs/rolls.jpg" alt="image">
+            <img class="images" src="./imgs/sandwhich.jpg" alt="image">
+            <img class="images" src="./imgs/tikka.jpg" alt="image">
+            <img class="images" src="./imgs/bbq.jpg" alt="image">
+            <img class="images" src="./imgs/tiikaboti.png" alt="image">
+            <img class="images" src="./imgs/chinese1.jpg" alt="image">
+            <img class="images" src="./imgs/noddles.jpg" alt="image">
+        </section>
+
+        
+    </div>
+
+    <!--footer-->
+    <footer id="foot">
+        <div class="footer-left">
+            <div class="inner-footer">
+                <div class="footer-items">
+                    <h1 id="h">O NAMA</h1>
+                    <p class="fpara">Osnovan u rujnu 2022., Foodies vjeruje u omogućavanje svojim gostima iskustva vrhunske kuhinje po razumnim cijenama i izvanrednim uslugama. Bit ćemo vodeći na balkanu restorana s izvrsnim okusom, ponudom organske hrane i dosljednim iskustvom koje se vrti oko svježe hrane, obitelji i osjećaja društvene svijesti.
+                        <a class="Le" href="../Aboutus/aboutUs.html">Saznaj više...</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-center">
+            <div class="inner-footer">
+                <div class="footer-items">
+
+                    <h2 id="he">BRZE VEZE</h2>
+                    <p class="A"><a class="r" href="#First">Početna</a></p>
+                    <p class="A"><a class="r" href="../Aboutus/aboutUs.html">O Nama</a></p>
+                    <p class="A"><a class="r" href="../Menu/Menu.html">Jelovnik</a></p>
+                
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <div class="inner-footer">
+                <div class="footer-items">
+                    <h3 id="hea">KONTAKTIRAJTE NAS</h3>
+                    <p class="fpara">Ako imate pitanja, komentara ili želite rezervirati stol, slobodno nam se obratite, isključivo na kontakt telefon</p>
+                    <p class="fpa"><i class="fas fa-phone-alt"></i> 111-123-111</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <p class="last"><i class="fab fa-facebook-square"></i> <i class="fab fa-facebook-messenger" id="icon2"></i>
+            <i class="fab fa-instagram" id="icon"></i> <i class="fab fa-twitter" id="icon1"></i></p>
+
+        <p class="last">© 2022 Foodies </p>
+    </footer>
+
+        <!--My JS File-->
+       <script src="homepage.js"></script>
+</body>
+</html>
